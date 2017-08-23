@@ -1,0 +1,35 @@
+{
+  "name": "fh-cachekey-client",
+  "version": "0.4.0",
+  "description": "Simple CacheKey client for publishing, updating and removing cache keys with Millicore",
+  "main": "cache.js",
+  "scripts": {
+    "test": "grunt eslint fh-test",
+    "version": "sed -i.bak \"s/sonar.projectVersion=.*/sonar.projectVersion=${npm_package_version}/\" sonar-project.properties && rm sonar-project.properties.bak && git add sonar-project.properties"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feedhenry/fh-cachekey-client.git"
+  },
+  "author": "FeedHenry",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/feedhenry/fh-cachekey-client/issues"
+  },
+  "homepage": "https://github.com/feedhenry/fh-cachekey-client",
+  "dependencies": {
+    "fh-amqp-js": "0.7.1",
+    "interval-buffer": "^1.0.1",
+    "request": "^2.53.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "grunt": "^1.0.1",
+    "grunt-fh-build": "^1.0.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.1.0",
+    "proxyquire": "0.4.1",
+    "sinon": "^1.15.4"
+  }
+}
