@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/feedhenry/fh-cachekey-client",
   "dependencies": {
-    "fh-amqp-js": "0.7.1",
+    "fh-amqp-js": "0.7.2",
     "interval-buffer": "^1.0.1",
     "request": "^2.53.0",
     "underscore": "^1.8.3"
