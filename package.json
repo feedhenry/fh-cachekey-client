@@ -20,7 +20,7 @@
   "dependencies": {
     "fh-amqp-js": "0.7.2",
     "interval-buffer": "^1.0.1",
-    "request": "^2.53.0",
+    "request": "2.87.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
