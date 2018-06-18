@@ -1,6 +1,6 @@
 {
   "name": "fh-cachekey-client",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Simple CacheKey client for publishing, updating and removing cache keys with Millicore",
   "main": "cache.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "dependencies": {
     "fh-amqp-js": "0.7.2",
     "interval-buffer": "^1.0.1",
-    "request": "^2.53.0",
+    "request": "2.87.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
