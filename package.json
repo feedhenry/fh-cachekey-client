@@ -1,6 +1,6 @@
 {
   "name": "fh-cachekey-client",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Simple CacheKey client for publishing, updating and removing cache keys with Millicore",
   "main": "cache.js",
   "scripts": {
